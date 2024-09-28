@@ -1,9 +1,10 @@
-# Plumb 1.0.0 
+# Plumb 1.0.1 
 
 一个轮子，用于渗透测试优化的 DNS/HTTP 日志工具，简洁、轻便、更易于使用。
 
 ## Chang Log
 
+* 2024-09-28： 调整Web域名和DNS域名的 yaml 获取
 * 2024-09-26： 初始版对外发布
 
 ## 功能说明
@@ -28,10 +29,11 @@ HTTP:
   # WebLog监听端口
   port: 80
   jwt_secret: "jwt_secret"
+  domain: log.jgeek.cn
 
 DNS:
   # DnsLog接收域名
-  domain: log.jgeek.cn
+  domain: dns.jgeek.cn
 
 DATABASE:
   type: sqlite
