@@ -1,11 +1,12 @@
-# Plumb 1.0.1 
+# Plumb 1.0.2 
 
 一个轮子，用于渗透测试优化的 DNS/HTTP 日志工具，简洁、轻便、更易于使用。
 
 ## Chang Log
 
-* 2024-09-28： 调整Web域名和DNS域名的 yaml 获取
-* 2024-09-26： 初始版对外发布
+* 2024-09-29： 调整 DNS 监听依赖组件；追加 DNS 监听 TCP 协议，追加协议接收范围：TypeA、TypeAAAA、TypeNS、TypeSOA、TypeTXT；
+* 2024-09-28： 调整Web域名和DNS域名的 yaml 获取；
+* 2024-09-26： 初始版对外发布；
 
 ## 功能说明
 
